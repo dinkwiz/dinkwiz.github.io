@@ -1,0 +1,21 @@
+<nav>
+  <div class="logo">
+    <h4>Dink Wiz<h4>
+  </div>
+  <ul class="nav">
+    <li {% if page.url == "/" %}class="active"{% endif %}><a href="index.html">Home</a></li>
+
+    <li {% if page.url == "/about.html" %}class="active"{% endif %}><a href="about.html">About</a></li>
+
+    <li {% if page.url == "/projects.html" %}class="active"{% endif %}><a href="projects.html">Projects</a></li>
+
+    <li {% if page.url == "/blog.html" %}class="active"{% endif %}><a href="blog.html">Blog</a></li>
+
+  </ul>
+  <div class="burger">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+  </div>
+
+</nav>
