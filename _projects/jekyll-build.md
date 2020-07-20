@@ -3,7 +3,7 @@ layout: proj-page
 title: Jekyll Template
 subtitle: learning jekyll
 date: 2020-07-12 12.00
-category: project-jekyll
+category: project-jekyll-build
 image_path: https://via.placeholder.com/150
 tags:
 - jekyll
