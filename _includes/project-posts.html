@@ -1,14 +1,16 @@
 
 <project-posts>
-  <div class="project-posts">
-  {% for post in site.posts %}
-   {% if post.categories contains "{{ project.project-id }}" %}
 
-    <div class-="post-item">
-      <a href="{{ post.url }}">{{ post.title }}
-      </a>
-    </div> 
-   {% endif %}
-  {% endfor %}
+  <h4>Posts</h4>
+
+  <div class="project-posts">
+    <ul>
+    {% assign filtered_posts = site.posts | where: 'project-id', page.project-id %}
+      {% assign sorted = filtered_posts | sort: 'project-order' %}
+        {% for post in sorted %}
+           <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+
   </div>
 </project-posts>

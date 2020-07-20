@@ -33,10 +33,6 @@ N.B. If you think this site looks rubbish, if the navigation is broken or it's a
 - Set up a Jekyll site from scratch. Design my own Jekyll theme, in order to learn how the site is built from the ground up.
 - Gain an understanding of all the elements that go into a Jekyll theme and in the process how to make changes to the layout design.
 
-#### Posts
-
-if category is the category of this project (project-jekyll-build) then list of posts with links to them
-
 posts to write
 
 - Jekyll the easy way

@@ -23,6 +23,7 @@ p {
   font-size: 15px;
   line-height: 28px;
 }
+
 content{
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -32,6 +33,16 @@ content{
     padding-top: 50px;
 }
 
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 6vh;
+    background-color: #008080;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -39,14 +50,23 @@ nav{
     min-height: 8vh;
     background-color: #008080;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 
 .logo{
     color: rgb(226, 226, 226);
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 20px
+    font-size: 20px;
+
+
 }
+
+.logo a{
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+}
+
 .nav{
     display: flex;
     justify-content: space-around;
@@ -59,7 +79,6 @@ nav{
     color: rgb(226, 226, 226);
     text-decoration: none;
     letter-spacing: 3px;
-    font-weight: bold;
     font-size: 14px
 }
 
@@ -84,8 +103,8 @@ nav{
     .nav{
         position: absolute;
         right: 0px;
-        height: 92vh;
-        top: 8vh;
+        height: 45vh;
+        top: 6vh;
         background-color: #008080;
         display: flex;
         flex-direction: column;
@@ -180,7 +199,7 @@ nav{
 
 .tags-section {
   width: 100%;
-  padding: 15px;
+  padding: 0px;
 
 }
 
