@@ -5,7 +5,7 @@ date:   yyyy-mm-dd hh:mm
 tags:
 - python
 - github
-categories: project-jekyll-build
+categories: jekyll-build
 ---
 #### SubTitle
 
