@@ -1,0 +1,12 @@
+<div class="tag-images">
+  <tag-image class="tag-image">
+  {% for tag in page.tags %}
+
+    <div class="tag_img">
+     <img src="/assets/img/tags/{{ tag }}.png" alt="{{ tag }}">
+     <div>{{ tag }}</div>
+    </div>
+
+  {% endfor %}
+  </tag-image>
+</div>
