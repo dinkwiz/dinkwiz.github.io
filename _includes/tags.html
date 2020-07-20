@@ -1,12 +1,29 @@
-<div class="tag-images">
-  <tag-image class="tag-image">
-  {% for tag in page.tags %}
+<div class="tags-section">
 
-    <div class="tag_img">
-     <img src="/assets/img/tags/{{ tag }}.png" alt="{{ tag }}">
-     <div>{{ tag }}</div>
+    <div class="tags-title">
+      <h4>Tools used<h4>
     </div>
 
-  {% endfor %}
-  </tag-image>
+    <div class="tag-images">
+      <tag-image class="tag-image">
+      {% for tag in page.tags %}
+
+        <div class="tag-img">
+         <img src="/assets/img/tags/{{ tag }}.png">
+        </div>
+
+      {% endfor %}
+      </tag-image>
+    </div>
+
+    <div class="tag-text">
+      {% for tag in page.tags %}
+
+         <div class="tooltip">
+             {{ tag }}
+         </div>
+
+      {% endfor %}
+    </div>
+
 </div>

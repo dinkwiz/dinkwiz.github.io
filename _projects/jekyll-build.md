@@ -7,9 +7,14 @@ category: project-jekyll
 image_path: https://via.placeholder.com/150
 tags:
 - jekyll
-- web development
+- ruby
+- css
+- markdown
+- javascript
+- github
+- atom
 ---
-### Introduction
+#### Introduction
 
 Using Jekyll with GitHub Pages is a fantastic way to easily set up a site, blog and start writing. You need very little technical knowledge, especially if you set it up through GitHub's GUI. GitHub offers a range of templates you can choose from, learn some basic markdown and away you go.
 
@@ -24,20 +29,11 @@ I chose the latter. I hope there will be a greater sense of satisfaction once th
 
 N.B. If you think this site looks rubbish, if the navigation is broken or it's a nightmare to use - congratulations on finding this page - it means I have accomplished something. It also means that this project is still In Progress!!
 
-### Aim
+#### Aim
 - Set up a Jekyll site from scratch. Design my own Jekyll theme, in order to learn how the website is built from the ground up.
 - Gain an understanding of all the elements that go into a Jekyll theme and in the process how to make changes to the layout design.
 
-### Tools used
-- Ruby
-- Jekyll
-- CSS
-- Markdown
-- Javascript
-- GitHub
-- Atom
-
-### Posts
+#### Posts
 
 if layout is post (i.e. not this page) and category is the category of this project (project-jekyll) then list of posts with links to them
 
