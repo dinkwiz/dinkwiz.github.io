@@ -20,7 +20,7 @@ Using Jekyll with GitHub Pages is a fantastic way to easily set up a blog and st
 
 I have very little experience with web development so set up a GitHub pages as a starting point. I followed a tutorial which allowed me to customise the site to a certain degree. The tutorial taught me the basics of how Jekyll works, Git Bash commands, folder set ups, the config file and Liquid. As a result, I had a fully-functioning website, including a portfolio and blog. It looked great on the surface but I didn't fully understand what was going on underneath. The style and layout of pages were based on the Jekyll theme I had installed. CSS, Bootstrap and Javascript worked behind the scenes to display my content. If I wanted to make changes, I'd need to understand how Jekyll themes were built so I could change them. And so as the saying goes: If it ain't broke...., OK I broke it.
 
-I had two options:
+There were two options:
 
 1. Work through the code in my current theme line by line and work out what each part controlled.
 2. Remove the current theme and rebuild it section by section.
