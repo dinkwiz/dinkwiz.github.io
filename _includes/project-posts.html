@@ -1,0 +1,6 @@
+<ul>
+{% if post.categories contains "{{ page.title }}" %}
+ <li>{{ post.title }}</li> 
+{% endif %}
+{% endfor %}
+</ul>
