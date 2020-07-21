@@ -160,6 +160,7 @@ nav{
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-column-gap: 20px;
   grid-row-gap: 20px;
+  margin: 20px;
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
   text-align: center;
@@ -167,7 +168,6 @@ nav{
 
 .project-gallery img {
   width: 100%;
-
 }
 
 .project-gallery a {
@@ -176,7 +176,6 @@ nav{
   font-size: 16px;
   font-weight: bold;
   color: black;
-
 }
 
 .htitle {
@@ -185,7 +184,6 @@ nav{
   background-color: #EDE7D9;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
-
 }
 
 .subtitle {
@@ -194,13 +192,18 @@ nav{
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   letter-spacing: 2px;
-
 }
 
+.subpage-title {
+  text-align: center;
+  padding: 15px 15px 0px 15;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
 .tags-section {
   width: 100%;
   padding: 0px;
-
 }
 
 .tags-title {
@@ -220,15 +223,6 @@ nav{
 
 .tag-img img {
   width: 50px;
-
-}
-
-.tag-text {
-  display:grid;
-  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-
 }
 
 .tooltip {

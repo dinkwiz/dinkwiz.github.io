@@ -10,20 +10,11 @@
 
         <div class="tag-img">
          <img src="/assets/img/tags/{{ tag }}.png">
+           <div class="tooltip">
+             {{ tag }}
+           </div>
         </div>
 
       {% endfor %}
-      </tag-image>
     </div>
-
-    <div class="tag-text">
-      {% for tag in page.tags %}
-
-         <div class="tooltip">
-             {{ tag }}
-         </div>
-
-      {% endfor %}
-    </div>
-
 </div>
