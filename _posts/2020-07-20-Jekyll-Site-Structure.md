@@ -30,7 +30,7 @@ Each page would be divided into three sections initially, header - content - foo
 
 Index.html - yaml- layout: default
 
-Default.html - liquid {% include header.html %}
+Default.html - liquid
 
 The homepage is based on the default layout
 The default layout includes the header.
