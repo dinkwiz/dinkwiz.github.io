@@ -9,7 +9,7 @@ tags:
 - markdown
 - ruby
 project-id: jekyll-build
-project-order: 3
+project-order: 5
 ---
 Open Git Bash and navigate to the location that you want to store your site folders and files locally. 
 
