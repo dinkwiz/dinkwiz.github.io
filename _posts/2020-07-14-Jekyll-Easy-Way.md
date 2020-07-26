@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jekyll: The Easy Way"
-date:   2020-07-13 15:31:07 +0100
+date:   2020-07-14 15:31:07 +0100
 tags:
 - jekyll
 - github
