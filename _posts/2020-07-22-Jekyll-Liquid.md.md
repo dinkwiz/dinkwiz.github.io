@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jekyll: Liquid"
-date: 2020-07-16 15:31:07 +0100
+date: 2020-07-22 15:31:07 +0100
 tags:
   - jekyll
   - git
@@ -9,7 +9,7 @@ tags:
   - markdown
   - ruby
 project-id: jekyll-build
-project-order: 3
+project-order: 10
 ---
 
 Liquid
