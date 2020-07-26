@@ -58,10 +58,6 @@ collections:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-
-# This means files in assets/img are all images.
-# If I want to refer to all images in the site I can do this using {% assign image_files = site.static_files | where: "image", true %}
-
 defaults:
   - scope:
       path: "assets/img"
