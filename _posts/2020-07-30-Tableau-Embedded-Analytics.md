@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tableau: Embedded Analytics – Quick Start Guide"
-date:   2020-08-03 00.00
+date:   2020-07-30 20.00
 tags:
 - tableau
 

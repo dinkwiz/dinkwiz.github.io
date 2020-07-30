@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Python: Changing the Jupyter Root Folder Location"
-date:   2020-08-02 00.00
+date:   2020-07-30 01.00
 tags:
 - python
 - pandas

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Anaconda: Install and set up"
-date:   2020-08-01 00.00
+date:   2020-07-30 00.00
 tags:
 - python
 - pandas
