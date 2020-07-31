@@ -73,6 +73,7 @@ nav a {
   align-items: center;
   list-style: none;
   text-decoration: none;
+  letter-spacing: 0.1rem;
 }
 
 #logo {
@@ -95,13 +96,25 @@ nav a {
   transition: all 0.3s ease;
 }
 
-/* content section */
+/* main section */
+
+section {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.content {
+  margin: 3rem;
+}
 
 .subpage-title {
   text-align: center;
   padding: 3rem;
   min-height: 10vh;
   font-size: 2rem;
+  letter-spacing: 0.1rem;
 }
 
 /* Categories Page*/
@@ -120,7 +133,7 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 10px 10px 10px grey;
+  box-shadow: 1rem 1rem 1rem grey;
 }
 
 .cat-item img{
