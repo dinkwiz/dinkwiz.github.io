@@ -1,8 +1,8 @@
 ---
 layout: cat-page
-title: python
-subtitle: python is ....
+title: Python
+subtitle: programming language
 date: 2020-07-12 00.00
-image-path: /assets/img/categories-jpg/python.jpg
+image-path: /assets/img/tags/python.png
 category: python
 ---

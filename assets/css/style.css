@@ -1,88 +1,85 @@
-body {
-  margin: 0px;
-  padding: 0px;
+/* Global style - remove margin and padding, border-box, html - adjust sizing so 1rem = 10 pixels*/
+
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+html {
+  font-size: 62.5%;
+}
+
+body {
   font-family: "Poppins", sans-serif;
 }
+
+/* Standard font-sizing */
+
+h1 {
+  font-size: 2.6rem;
+}
+
+li,
+button,
+label,
+input,
+p {
+  font-size: 2rem;
+}
+
 h2 {
-  font-size: 30px;
+  font-size: 3.6rem;
+}
+
+h3 {
+  font-size: 3rem;
   font-weight: 400;
 }
-h3 {
-  font-size: 28px;
-  font-weight: 300;
-}
-h4 {
-  font-size: 20px;
-  font-weight: 300;
-}
-p {
-  font-size: 15px;
-  line-height: 28px;
+
+a {
+  color: midnightblue;
 }
 
-content {
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  align-content: center;
-  padding-left: 8%;
-  padding-right: 8%;
-  padding-top: 50px;
+h4,
+h5 {
+  font-size: 2.8rem;
 }
 
-footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 6vh;
-  background-color: #364f6b;
-  font-family: "Poppins", sans-serif;
-  margin-top: 30px;
-}
+
+/* Nav section */
 
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 8vh;
+  color: whitesmoke;
+  min-height: 10vh;
   background-color: #364f6b;
   font-family: "Poppins", sans-serif;
+  padding: 3rem;
+}
+
+nav a {
+  color: whitesmoke;
   text-decoration: none;
+  font-size: 1.5rem;
 }
 
-.logo {
-  color: rgb(226, 226, 226);
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 20px;
-}
-
-.logo a {
-  text-decoration: none;
-  color: rgb(226, 226, 226);
-}
-
-.nav {
+.nav-links {
   display: flex;
+  flex: 1 1 40rem;
   justify-content: space-around;
-  width: 40%;
-}
-.nav li {
+  align-items: center;
   list-style: none;
-}
-.nav a {
-  color: rgb(226, 226, 226);
   text-decoration: none;
-  letter-spacing: 3px;
-  font-size: 14px;
+}
+
+#logo {
+  flex: 1 1 40rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
 }
 
 .burger {
@@ -91,117 +88,84 @@ nav {
 }
 
 .burger div {
-  width: 25px;
-  height: 3px;
+  width: 3rem;
+  height: 0.45rem;
   background-color: rgb(226, 226, 226);
-  margin: 5px;
+  margin: 0.5rem;
   transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 1024px) {
-  body {
-    overflow-x: hidden;
-  }
-  .nav {
-    position: absolute;
-    right: 0px;
-    height: 45vh;
-    top: 6vh;
-    background-color: #364f6b;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30%;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in;
-  }
-  .nav li {
-    opacity: 1;
-  }
-  .burger {
-    display: block;
-  }
-}
-
-.nav-active {
-  transform: translateX(0%);
-}
-
-@keyframes navFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
-
-.toggle .line1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
-.toggle .line2 {
-  opacity: 0;
-}
-.toggle .line3 {
-  transform: rotate(45deg) translate(-5px, -6px);
-}
-
-.Title {
-  text-align: center;
-  letter-spacing: 3px;
-  font-size: 45px;
-  font-weight: bold;
-  font-family: "Poppins", sans-serif;
-}
-
-.project-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-  margin: 20px;
-  font-family: "Poppins", sans-serif;
-  font-size: 12px;
-  text-align: center;
-}
-
-.project-gallery img {
-  width: 100%;
-}
-
-.project-gallery a {
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-  color: black;
-}
-
-.htitle {
-  text-align: center;
-  padding: 70px;
-  background-color: #ede7d9;
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-}
-
-.subtitle {
-  text-align: center;
-  padding: 15px 15px 0px 15;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  letter-spacing: 2px;
-}
+/* content section */
 
 .subpage-title {
   text-align: center;
-  padding: 15px 15px 0px 15;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  letter-spacing: 2px;
+  padding: 3rem;
+  min-height: 10vh;
+  font-size: 2rem;
 }
+
+/* Categories Page*/
+
+.cat-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cat-item {
+  background-color: whitesmoke;
+  width: 20rem;
+  margin: 1.5rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 10px grey;
+}
+
+.cat-item img{
+  margin: 5%;
+  width: 90%;
+}
+
+.cat-item a{
+  text-decoration: none;
+}
+
+.cat-title{
+  font-size: 2rem;
+  text-align: center;
+  color: #364f6b;
+  font-weight: bold;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cat-subtitle{
+  font-size: 1.2rem;
+  text-align: center;
+  color: #364f6b;
+  display: flex;
+  align-items: center;
+  justify-content: center
+  
+}
+
+/* Individual Categpry Page */
+
+.cat-posts{
+  padding: 2rem;
+}
+
+.cat-posts a {
+  color: black;
+  font-size: 1.6rem;
+}
+
+/* tags in posts */
+
 .tags-section {
   width: 100%;
   padding: 0px;
@@ -233,3 +197,74 @@ nav {
   font-family: "Poppins", sans-serif;
   font-size: 10px;
 }
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: whitesmoke;
+  min-height: 5vh;
+  background-color: #364f6b;
+  font-family: "Poppins", sans-serif;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+/* mobile adjustments */
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 60%;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 45vh;
+    top: 9rem;
+    background-color: #364f6b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    opacity: 1
+  }
+  
+  .burger {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-active {
+  transform: translateX(0%);
+  }
+}
+
+@keyframes navFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -5px);
+}
+

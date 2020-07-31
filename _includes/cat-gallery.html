@@ -3,15 +3,20 @@
 <cat-gallery>
     <div class="cat-gallery">
     {% for category in site.categories %}
-        <ul>
+        <div class="cat-items">
             <div class="cat-item">
                 <a 
                 href="{{ category.url }}">
                 <img src="{{ category.image-path }}" alt="">
-                {{ category.title }}
+                <div class="cat-title"> 
+                    {{ category.title }} 
+                </div>
+                <div class="cat-subtitle">
+                    {{ category.subtitle }}
+                </div>
                 </a>
             </div>
-        </ul>
+        </div>
     {% endfor %}
     </div>
 </cat-gallery>

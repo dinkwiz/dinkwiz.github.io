@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/assets/img/icon.svg" />
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="robots" content="index,follow" />
     <title>{% if page.title %}{{page.title}}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{ site.description }}{% endif %}">
     <base href="{{ site.url }}">
@@ -13,16 +15,12 @@
 
 <body>
 
-  <header>
-    <div class="container">
-      <div class="row">
-         <div class="col-md-12">
+<!-- Add Site Title and Menu items-->
 
-          {% include nav.html %}
+  <header class="main-head">
 
-        </div>
-      </div>
-    </div>
+    {% include nav.html %}
+
   </header>
 
 
@@ -36,14 +34,9 @@
   </div>
 
   <footer>
-     <div class="container">
-       <div class="row">
-         <div class="col-md-12">
 
        {% include footer.html %}
 
-       </div>
-     </div>
    </footer>
 
 

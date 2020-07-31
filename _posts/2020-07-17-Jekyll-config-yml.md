@@ -6,8 +6,7 @@ tags:
   - jekyll
   - github
   - markdown
-project-id: jekyll-build
-project-order: 4
+category: Jekyll
 ---
 
 info in config.yml file
