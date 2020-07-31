@@ -35,7 +35,7 @@ Content for your site can be edited within the index.html file.
 
 There are a number of free themes available for Jekyll. These have pre-set layouts and pages, such as About, Blog and Contact.
 
-1.Go to a site such as [Jekyll Themes](https://jekyllthemes.io/free) and browse the themes to find one you like the look of.
+1. Go to a site such as [Jekyll Themes](https://jekyllthemes.io/free) and browse the themes to find one you like the look of.
 
 2. Once you have chosen a theme, click the Get on GitHub button. This will redirect you to GitHub. There will be some useful information on this page about the theme which you might want to read through.
 
