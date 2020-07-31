@@ -1,0 +1,11 @@
+<div class="cat-links">
+
+    {% for category in site.categories %}
+            <div class="cat-link">
+                <a 
+                href="{{ category.url }}">
+                {{ category.title }}
+                </a>
+            </div>
+    {% endfor %}
+</div>

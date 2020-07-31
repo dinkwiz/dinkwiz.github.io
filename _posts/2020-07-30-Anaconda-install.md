@@ -8,7 +8,7 @@ tags:
 - numpy
 - matplotlib
 - anaconda
-categories: python
+category: python
 ---
 
 Anaconda is a software package with contains everything you need to get started with Python. Anaconda is open-source, which means it is free to download and use.

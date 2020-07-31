@@ -8,8 +8,7 @@ tags:
 - bash
 - markdown
 - ruby
-project-id: jekyll-build
-project-order: 3
+category: jekyll
 ---
 You can [set up a Jekyll site through GitHub](https://dinkwiz.github.io/Jekyll-Easy-Way.html) in up just a few hours and with very little technical knowledge, using an existing theme. While these themes look simple on the surface, there is a lot going on behind the scenes. Without an understanding of this, it’s hard to know where to start with customising your site.
 

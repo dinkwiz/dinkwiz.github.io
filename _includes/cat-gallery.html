@@ -1,0 +1,17 @@
+<!--This contains the html for the Category page. It lists out all categories and links to the _categories page for each one.-->
+
+<cat-gallery>
+    <div class="cat-gallery">
+    {% for category in site.categories %}
+        <ul>
+            <div class="cat-item">
+                <a 
+                href="{{ category.url }}">
+                <img src="{{ category.image-path }}" alt="">
+                {{ category.title }}
+                </a>
+            </div>
+        </ul>
+    {% endfor %}
+    </div>
+</cat-gallery>
