@@ -6,7 +6,7 @@
   <div class="cat-posts">
     {% assign sorted-posts = site.posts | sort: 'date' %}
         {% for post in sorted-posts %}
-        {% if post.category == page.category %}
+        {% if post.categories contains page.category %}
           <a href="{{ post.url }}">
             {{post.title }}
             </a>
