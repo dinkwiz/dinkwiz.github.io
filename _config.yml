@@ -30,6 +30,7 @@ github_username:  dinkwiz
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 collections:
   projects:
