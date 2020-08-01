@@ -20,7 +20,7 @@ If, like me, you want to customise your site, neither of these options will prov
 #### Method 1: Single Page Site through GitHub
 
 **1. Create a GitHub Repository**
-    
+
    Once you have a GitHub account, create a new repository. A repository is just GitHub's name for a folder. Name the repository using your GitHub Username in the following format:
 
    > *username*.github.io
@@ -40,21 +40,13 @@ If, like me, you want to customise your site, neither of these options will prov
 There are a number of free themes available for Jekyll. These have pre-set layouts and pages, such as About, Blog and Contact.
 
 1. Go to a site such as [Jekyll Themes](https://jekyllthemes.io/free) and browse the themes to find one you like the look of.
-
 2. Once you have chosen a theme, click the Get on GitHub button. This will redirect you to GitHub. There will be some useful information on this page about the theme which you might want to read through.
-
 3. Fork the GitHub repository you are redirected to. Fork simply means it will create a copy of the repository in your GitHub account.
-
 4. You will be redirected to a new repository under your GitHub account. Go to settings and rename the repository to:
-
     >>*username*.github.io
-
 5. Your site will now be set up at [*username*.github.io]. You will just need to make a few changes within the config.yml file.
-
 6. Click on this file and the pencil to edit. Personalise the different options, such as your site url, site title, etc. Once all changes have been made, commit (i.e. save) the changes at the bottom of the page.
-
 7. Now all that is left is to edit the content. Your site may have pages such as about.md which you will need to customise. 
-
 
 #### Markdown
 You will need to know some basic markdown to edit these pages. Markdown really is a simple way of formatting text and nothing to be scared of!
