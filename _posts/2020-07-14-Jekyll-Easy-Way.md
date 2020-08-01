@@ -6,7 +6,7 @@ tags:
 - jekyll
 - github
 - markdown
-category:
+categories:
 - jekyll
 ---
 #### GitHub and GitHub Pages
