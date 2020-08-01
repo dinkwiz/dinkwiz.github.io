@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jekyll: Pre-requisites"
+title:  "Pre-requisites"
 subtitle: "part 1: getting started"
 date:   2020-07-14 20:31:07 +0100
 tags:
