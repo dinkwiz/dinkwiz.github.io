@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jekyll: The Easy Way"
+title:  "The Easy Way"
 date:   2020-07-14 15:31:07 +0100
 tags:
 - jekyll
@@ -9,13 +9,12 @@ tags:
 categories:
 - jekyll
 ---
+
 GitHub Pages supports a number of Jekyll themes and is the simplest and easiest way to get started with a Jekyll site. All you need is a free GitHub account. If you don't already have one, you can sign up for a GitHub account at [GitHub.com](http://github.com).
 
-The first method below will create a very simple website with a single page. It's a useful way to experiment with GitHub Pages but unlikely to give you all the features you want. The second method uses a Jekyll site theme and builds a site with multiple pages, blog and navigation. There will be a lot going on in the back-end of your site which is not explained here and while you can add content, malonh changes to the layout and design of your site will be limited.
+The first method below will create a very simple website with a single page. It's a useful way to experiment with GitHub Pages but unlikely to give you all the features you want. The second method uses a Jekyll Theme and builds a site with multiple pages, blog and navigation. There will be a lot going on in the back-end of your site which is not explained here. While you can add content, changes to the layout and design of your site will be limited.
 
 If, like me, you want to customise your site, neither of these options will provide you with the functionality you'll need. However, if you are new to Jekyll, I suggest you start here. Both methods are quick to set up and will give you a feel for how Jekyll works before starting on your own project.
-
-Interested in learning more? Take a look at my XXXXXXXXX
 
 ## Method 1: Single Page Site through GitHub
 
