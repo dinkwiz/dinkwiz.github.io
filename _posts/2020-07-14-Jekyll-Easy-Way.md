@@ -20,7 +20,8 @@ If, like me, you want to customise your site, neither of these options will prov
 #### Method 1: Single Page Site through GitHub
 
 **1. Create a GitHub Repository**
-   Once you have a GitHub account, create a new repository. A repository is just GitHub's name for a folder. Name the repository using your GitHub Username in the following format:
+
+    Once you have a GitHub account, create a new repository. A repository is just GitHub's name for a folder. Name the repository using your GitHub Username in the following format:
 
    > *username*.github.io
 
@@ -28,7 +29,8 @@ If, like me, you want to customise your site, neither of these options will prov
    Once created, you will be redirected to your empty repository. 
     
 **2. Edit the Repository Settings.**
-   Go to Settings and scroll down until you get to the GitHub Pages section.
+
+    Go to Settings and scroll down until you get to the GitHub Pages section.
    Select a theme from the options available.
    Your site will now be available at [*username*.github.io].
    Content for your site can be edited within the index.html file.
