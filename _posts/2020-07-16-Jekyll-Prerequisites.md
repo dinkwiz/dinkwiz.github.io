@@ -2,7 +2,7 @@
 layout: post
 title:  "Jekyll: Pre-requisites"
 subtitle: "part 1: getting started"
-date:   2020-07-16 15:31:07 +0100
+date:   2020-07-14 20:31:07 +0100
 tags:
 - jekyll
 - git
@@ -10,9 +10,9 @@ tags:
 - bash
 - markdown
 - ruby
-category: jekyll
+category: Jekyll
 ---
-You can [set up a Jekyll site through GitHub](https://dinkwiz.github.io/Jekyll-Easy-Way.html) in up just a few hours and with very little technical knowledge. Your site will look fairly simple on the surface but there is a lot going on behind the scenes. Without an understanding of this, it’s hard to know where to start with customising your site.
+You can [set up a Jekyll site through GitHub](https://dinkwiz.github.io/jekyll/Jekyll-Easy-Way.html) in up just a few hours and with very little technical knowledge. Your site will look fairly simple on the surface but there is a lot going on behind the scenes. Without an understanding of this, it’s hard to know where to start with customising your site.
 
 You'll need to get to grips with the code underpinning the theme you installed, where the different elements (pages, includes) are used and how they link together. You’ll need to unpick the theme designer’s thought process and need to have a similar level of coding skill to understand what each element does. Depending on the theme, code will include html, CSS, JavaScript alongside other elements, such as SASS and Bootstrap.
 
