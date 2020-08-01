@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Jekyll: Pre-requisites"
+subtitle: "part 1: getting started"
 date:   2020-07-16 15:31:07 +0100
 tags:
 - jekyll
@@ -25,10 +26,10 @@ First up, you'll need to set up your computer by installing the languages and so
 
 
 1.	**Install Ruby**. 
-Ruby is a programming language. Jekyll runs on Ruby, so in order to run Jekyll you’ll need to install Ruby first. Once Ruby is installed, it can be ignored. It runs in the background, letting Jekyll do its thing.
+    Ruby is a programming language. Jekyll runs on Ruby, so in order to run Jekyll you’ll need to install Ruby first. Once Ruby is installed, it can be ignored. It runs in the background, letting Jekyll do its thing.
 
-Ruby site
-Install
+    Ruby site
+    Install
 
 2. **Install Jekyll**
 

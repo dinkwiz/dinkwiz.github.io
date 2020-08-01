@@ -136,7 +136,7 @@ nav a {
 /* main section */
 
 section {
-  margin: 2rem;
+  mpadding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -144,7 +144,7 @@ section {
 }
 
 .content {
-  margin: 3rem;
+  padding: 3rem;
 }
 
 .subpage-title {
@@ -200,11 +200,11 @@ section {
   color: #364f6b;
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
   
 }
 
-/* Individual Categpry Page */
+/* Individual Category Page */
 
 .cat-posts{
   padding: 2rem;
@@ -215,26 +215,88 @@ section {
   font-size: 1.6rem;
 }
 
+
+/* post page */
+
+
+.post-titles{
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color:antiquewhite;
+}
+
+.post-titles h1{
+  text-align: center;
+  font-size: 3rem;
+  padding: 0.5rem;
+  
+}
+
+.post-titles h2{
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  color: #364f6b;
+}
+
+.main-post p{
+  font-size: 1.6rem;
+  padding: 2rem 5rem;
+  color: #364f6b;
+  align-items: center;
+  align-self: center;
+}
+
+.main-post h4{
+  font-size: 2rem;
+  padding: 2rem 5rem;
+  color: #364f6b;
+}
+
+.main-post ol{
+  font-size: 2rem;
+  padding: 0rem 6rem;
+  color: #364f6b;
+}
+
+.main-post li{
+  font-size: 2rem;
+  padding: 0rem 0rem;
+  color: #364f6b;
+}
+
 /* tags in posts */
 
 .tags-section {
-  width: 100%;
-  padding: 0px;
+  padding: 0rem 0rem 3rem 0rem;
+  background-color:antiquewhite;
 }
 
 .tags-title {
-  width: 100%;
-  padding: 15px 15px 0px 15;
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  letter-spacing: 0.5px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.tags-title h4{
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 3rem 0rem 0rem 0rem;
+  font-size: 2rem;
 }
 
 .tag-image {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill,minmax(5rem,1fr));
+  grid-column-gap: 2rem;
+  grid-row-gap: 0.5rem;
+  
 }
 
 .tag-img img {
@@ -246,7 +308,7 @@ section {
   flex-direction: column;
   align-items: center;
   font-family: "Poppins", sans-serif;
-  font-size: 10px;
+  font-size: 1rem;
 }
 
 /* footer */
@@ -260,7 +322,11 @@ footer {
   background-color: #364f6b;
   font-family: "Poppins", sans-serif;
   padding: 2rem;
-  margin-top: 3rem;
+}
+
+footer p{
+  color: white;
+  font-size: 1rem;
 }
 
 /* mobile adjustments */
