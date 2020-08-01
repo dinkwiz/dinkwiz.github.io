@@ -17,6 +17,8 @@ The first method below will create a very simple website with a single page. It'
 
 If, like me, you want to customise your site, neither of these options will provide you with the functionality you'll need. However, if you are new to Jekyll, I suggest you start here. Both methods are quick to set up and will give you a feel for how Jekyll works before starting on your own project.
 
+<hr class="line">
+
 #### Method 1: Single Page Site through GitHub
 
 **1. Create a GitHub Repository**
@@ -35,6 +37,8 @@ If, like me, you want to customise your site, neither of these options will prov
    Your site will now be available at [*username*.github.io].
    Content for your site can be edited within the index.html file.
 
+<hr class="line">
+
 #### Method 2: Using a Jekyll Theme
 
 There are a number of free themes available for Jekyll. These have pre-set layouts and pages, such as About, Blog and Contact.
@@ -47,6 +51,8 @@ There are a number of free themes available for Jekyll. These have pre-set layou
 5. Your site will now be set up at [*username*.github.io]. You will just need to make a few changes within the config.yml file.
 6. Click on this file and the pencil to edit. Personalise the different options, such as your site url, site title, etc. Once all changes have been made, commit (i.e. save) the changes at the bottom of the page.
 7. Now all that is left is to edit the content. Your site may have pages such as about.md which you will need to customise. 
+
+<hr class="line">
 
 #### Markdown
 You will need to know some basic markdown to edit these pages. Markdown really is a simple way of formatting text and nothing to be scared of!
