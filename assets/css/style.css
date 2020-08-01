@@ -226,6 +226,7 @@ section {
   justify-content: center;
   flex-direction: column;
   background-color:antiquewhite;
+  margin-bottom: 2rem;
 }
 
 .post-titles h1{
@@ -235,16 +236,23 @@ section {
   
 }
 
-.post-titles h2{
+.post-titles a{
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding: 0.5rem;
   color: #364f6b;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+.content{
+  padding: 1vw 15vw 1vw 15vw;
 }
 
 .main-post p{
   font-size: 1.6rem;
-  padding: 2rem 5rem;
+  padding: 1vw 0vw 1vw 0vw;
   color: #364f6b;
   align-items: center;
   align-self: center;
@@ -252,20 +260,24 @@ section {
 
 .main-post h4{
   font-size: 2rem;
-  padding: 2rem 5rem;
+  padding: 3vw 0vw 2vw 0vw;
   color: #364f6b;
 }
 
 .main-post ol{
-  font-size: 2rem;
-  padding: 0rem 6rem;
-  color: #364f6b;
+  padding: 2vw 0vw 1vw 2vw;
+  color: #364f6b;  
 }
 
 .main-post li{
   font-size: 2rem;
-  padding: 0rem 0rem;
+  padding: 2vw 0vw 1vw 0vw;
   color: #364f6b;
+}
+
+.main-post ol > li{
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 /* tags in posts */
@@ -273,6 +285,7 @@ section {
 .tags-section {
   padding: 0rem 0rem 3rem 0rem;
   background-color:antiquewhite;
+  margin-top: 2rem;
 }
 
 .tags-title {

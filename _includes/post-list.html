@@ -1,9 +1,10 @@
 <ul class="list  list--posts">
-      {% for page in site.posts %}
+  {% assign sorted-posts = site.posts | sort: 'date' %}    
+  {% for page in sorted-posts %}
         <li class="item-post">
           <article class="article  article--post">
 
-                <a href="{{ site.baseurl }}{{ page.url }}">{{ page.category }} | {{ page.title }}</a> - {{ page.date | date: '%B %d, %Y' }}
+                <a href="{{ site.baseurl }}{{ page.url }}">{{ page.category }} | {{ page.title }}</a> - {{ page.date | date: '%B %Y' }}
 
           </article>
         </li>
