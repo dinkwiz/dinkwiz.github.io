@@ -4,6 +4,7 @@
           <article class="article  article--post">
 
             <a href="{{ site.baseurl }}{{ page.url }}">{{ page.category }} | {{ page.title }}</a>
+                <p> - {{ post.date | date: '%B %d, %Y' }} </p>
 
           </article>
         </li>
