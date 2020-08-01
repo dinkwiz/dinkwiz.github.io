@@ -26,7 +26,7 @@ label,
 input,
 p {
   font-size: 2rem;
-  line-spacing: 1.5rem;
+  line-height: 1.5;
 }
 
 h2 {
