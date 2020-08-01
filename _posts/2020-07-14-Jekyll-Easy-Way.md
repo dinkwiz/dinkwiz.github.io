@@ -47,7 +47,7 @@ There are a number of free themes available for Jekyll. These have pre-set layou
 
 4. You will be redirected to a new repository under your GitHub account. Go to settings and rename the repository to:
 
->> *username*.github.io
+    >>*username*.github.io
 
 5. Your site will now be set up at [*username*.github.io]. You will just need to make a few changes within the config.yml file.
 
