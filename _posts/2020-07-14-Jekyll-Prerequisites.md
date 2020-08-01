@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Pre-requisites"
-subtitle: "part 1: getting started"
 excerpt: "What you'll need before starting to build a Jekyll site from scratch."
 date:   2020-07-14 20:31:07 +0100
 tags:
