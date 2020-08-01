@@ -19,8 +19,8 @@ If, like me, you want to customise your site, neither of these options will prov
 
 #### Method 1: Single Page Site through GitHub
 
-1. **Create a GitHub Repository**
-   Once you have a GitHub account, create a new repository. A repository is just GitHub's name for a folder. Name the repository using your GitHub Username in the following format:
+**1. Create a GitHub Repository**
+    Once you have a GitHub account, create a new repository. A repository is just GitHub's name for a folder. Name the repository using your GitHub Username in the following format:
 
 > *username*.github.io
 
@@ -44,7 +44,7 @@ There are a number of free themes available for Jekyll. These have pre-set layou
 
 4. You will be redirected to a new repository under your GitHub account. Go to settings and rename the repository to:
 
-> *username*.github.io
+        code(*username*.github.io)
 
 5. Your site will now be set up at [*username*.github.io]. You will just need to make a few changes within the config.yml file.
 
@@ -62,20 +62,12 @@ You will need to know some basic markdown to edit these pages. Markdown really i
 Within Jekyll pages, there will be some content at the top of each page separated by three dashes. This is known as YAML. You must keep this content there as it tells the site how it should be built. For example, the layout section tells the site what the page should look like. 
 
 #### Blog Posts
-Mpst Jekyll themes will have a blog section. This is probably the part of the site that you will edit and add to on a regular basis. All Jekyll sites have a \_posts folder. Each file in here relates to a blog post.
+Most Jekyll Themes will have a blog section. This is probably the part of the site that you will edit and add to on a regular basis. All Jekyll sites have a \_posts folder. Each file in here relates to a blog post. Each post must be named in the correct format and have the same YAML information (at the top of the page), such as date, title, etc. Most themes include a template or example post to show you what content is needed.
 
-Each post must be named in the correct format and have the same YAML information (at the top of the page), such as date, title, etc. Most themes include a template or example post to show you what content is needed.
-
-To start a new blog post: I suggest you edit an existing post and copy the YAML information (including dashes at the start and end). you can then:
+To start a new blog post: I suggest you edit an existing post and copy the YAML information (including dashes at the start and end). You can then:
 
 a. Add a new blank file.
-
-b. Name the file in the Jekyll format:
-
-> yyyy-mm-dd-title.md
-
+b. Name the file in the Jekyll format: code(yyyy-mm-dd-title.md)
 c. Paste the YAML information from a previous post and edit date, title. etc.
-
-d. Add your post content under the final YAML dashes using markdown to format it.
-
+d. Add your post content underneath the final YAML dashes, using markdown to format it.
 e. Commit the file and view it in your site's blog.
