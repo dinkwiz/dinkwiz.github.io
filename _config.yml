@@ -66,4 +66,4 @@ defaults:
 
 # This makes sure Jekyll uses the files within _pages when it builds the site. I wanted a separate folder for pages so they were all in one place and not mixed in with the core Jekyll build files in the main folder.
 
-permalink: /:categories/:title
+permalink: none
