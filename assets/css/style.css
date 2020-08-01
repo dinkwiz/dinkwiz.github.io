@@ -273,7 +273,7 @@ nav a {
 .post-titles a{
   text-align: center;
   font-size: 2rem;
-  padding: 0.5rem;
+  padding: 3rem 0.5rem 0.5rem 0.5rem;
   color: #364f6b;
   text-decoration: none;
   font-weight: bold;
