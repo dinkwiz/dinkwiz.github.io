@@ -16,7 +16,7 @@ The first method below will create a very simple website with a single page. It'
 
 If, like me, you want to customise your site, neither of these options will provide you with the functionality you'll need. However, if you are new to Jekyll, I suggest you start here. Both methods are quick to set up and will give you a feel for how Jekyll works before starting on your own project.
 
-## Method 1: Single Page Site through GitHub
+#### Method 1: Single Page Site through GitHub
 
 1. Once you have a GitHub account, create a new repository. A repository is just GitHub's name for a folder. Name the repository using your GitHub Username in the following format:
 
@@ -30,7 +30,7 @@ All the other settings can remain as the default.
 4. Select a theme from the options available. Your site will now be available at [*username*.github.io].
 Content for your site can be edited within the index.html file.
 
-## Method 2: Using a Jekyll Theme.
+#### Method 2: Using a Jekyll Theme.
 
 There are a number of free themes available for Jekyll. These have pre-set layouts and pages, such as About, Blog and Contact.
 
