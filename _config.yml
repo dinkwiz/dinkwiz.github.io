@@ -34,8 +34,6 @@ plugins:
 collections:
   projects:
     output: true
-  categories:
-    output: true
 
 
 # Exclude from processing.
