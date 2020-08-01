@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/assets/img/icon.svg" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="robots" content="index,follow" />
+    <title>{% if page.title %}{{page.title}}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{ site.description }}{% endif %}">
+    <base href="{{ site.url }}">
+</head>
+
+<body>
+
+<!-- Add Site Title and Menu items-->
+    
+    <div class="welcome">
+
+      <h2>Dink Wiz</h2>
+      <p>Data - Information - Knowledge - Wisdom</p>
+
+      <ul class="wel-links">
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/categories.html">Categories</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+
+    </div>
+
+
+<script src="/assets/js/app.js"></script>
+</body>
+
+</html>
