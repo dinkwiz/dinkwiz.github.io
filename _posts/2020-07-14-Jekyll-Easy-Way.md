@@ -9,8 +9,9 @@ tags:
 categories:
 - jekyll
 ---
+#### GitHub and GitHub Pages
 
-GitHub Pages supports a number of Jekyll themes and is the simplest and easiest way to get started with a Jekyll site. All you need is a free GitHub account. If you don't already have one, you can sign up for a GitHub account at [GitHub.com](http://github.com).
+GitHub Pages supports a number of Jekyll Themes and is the simplest and easiest way to get started with a Jekyll site. All you need is a free GitHub account. If you don't already have one, you can sign up for a GitHub account at [GitHub.com](http://github.com).
 
 The first method below will create a very simple website with a single page. It's a useful way to experiment with GitHub Pages but unlikely to give you all the features you want. The second method uses a Jekyll Theme and builds a site with multiple pages, blog and navigation. There will be a lot going on in the back-end of your site which is not explained here. While you can add content, changes to the layout and design of your site will be limited.
 
@@ -18,7 +19,8 @@ If, like me, you want to customise your site, neither of these options will prov
 
 #### Method 1: Single Page Site through GitHub
 
-1. Once you have a GitHub account, create a new repository. A repository is just GitHub's name for a folder. Name the repository using your GitHub Username in the following format:
+1. **Create a GitHub Repository**
+   Once you have a GitHub account, create a new repository. A repository is just GitHub's name for a folder. Name the repository using your GitHub Username in the following format:
 
 > *username*.github.io
 
