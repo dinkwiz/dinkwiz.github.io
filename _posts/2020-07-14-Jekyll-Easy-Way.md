@@ -21,19 +21,19 @@ If, like me, you want to customise your site, neither of these options will prov
 
 **1. Create a GitHub Repository**
     
-    Once you have a GitHub account, create a new repository. A repository is just GitHub's name for a folder. Name the repository using your GitHub Username in the following format:
+   Once you have a GitHub account, create a new repository. A repository is just GitHub's name for a folder. Name the repository using your GitHub Username in the following format:
 
-    > *username*.github.io
+   > *username*.github.io
 
-    All the other settings can remain as the default. 
-    Once created, you will be redirected to your empty repository. 
+   All the other settings can remain as the default. 
+   Once created, you will be redirected to your empty repository. 
     
 **2. Edit the Repository Settings.**
 
-    Go to Settings and scroll down until you get to the GitHub Pages section.
-    Select a theme from the options available.
-    Your site will now be available at [*username*.github.io].
-    Content for your site can be edited within the index.html file.
+   Go to Settings and scroll down until you get to the GitHub Pages section.
+   Select a theme from the options available.
+   Your site will now be available at [*username*.github.io].
+   Content for your site can be edited within the index.html file.
 
 #### Method 2: Using a Jekyll Theme.
 
@@ -47,7 +47,7 @@ There are a number of free themes available for Jekyll. These have pre-set layou
 
 4. You will be redirected to a new repository under your GitHub account. Go to settings and rename the repository to:
 
-        code(*username*.github.io)
+>> *username*.github.io
 
 5. Your site will now be set up at [*username*.github.io]. You will just need to make a few changes within the config.yml file.
 
