@@ -20,17 +20,20 @@ If, like me, you want to customise your site, neither of these options will prov
 #### Method 1: Single Page Site through GitHub
 
 **1. Create a GitHub Repository**
+    
     Once you have a GitHub account, create a new repository. A repository is just GitHub's name for a folder. Name the repository using your GitHub Username in the following format:
 
-> *username*.github.io
+    > *username*.github.io
 
-All the other settings can remain as the default. 
+    All the other settings can remain as the default. 
+    Once created, you will be redirected to your empty repository. 
+    
+**2. Edit the Repository Settings.**
 
-2. Once created, you will be redirected to your empty repository. 
-3. Go to Settings and scroll down until you get to the GitHub Pages section.
-
-4. Select a theme from the options available. Your site will now be available at [*username*.github.io].
-Content for your site can be edited within the index.html file.
+    Go to Settings and scroll down until you get to the GitHub Pages section.
+    Select a theme from the options available.
+    Your site will now be available at [*username*.github.io].
+    Content for your site can be edited within the index.html file.
 
 #### Method 2: Using a Jekyll Theme.
 
@@ -66,8 +69,8 @@ Most Jekyll Themes will have a blog section. This is probably the part of the si
 
 To start a new blog post: I suggest you edit an existing post and copy the YAML information (including dashes at the start and end). You can then:
 
-a. Add a new blank file.
-b. Name the file in the Jekyll format: code(yyyy-mm-dd-title.md)
-c. Paste the YAML information from a previous post and edit date, title. etc.
-d. Add your post content underneath the final YAML dashes, using markdown to format it.
-e. Commit the file and view it in your site's blog.
+1. Add a new blank file.
+2. Name the file in the Jekyll format: code(yyyy-mm-dd-title.md)
+3. Paste the YAML information from a previous post and edit date, title. etc.
+4. Add your post content underneath the final YAML dashes, using markdown to format it.
+5. Commit the file and view it in your site's blog.
