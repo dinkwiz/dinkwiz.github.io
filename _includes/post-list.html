@@ -1,12 +1,15 @@
-<ul class="list  list--posts">
+<div class="blog-posts">
   {% assign sorted-posts = site.posts | sort: 'date' %}    
   {% for page in sorted-posts %}
-        <li class="item-post">
-          <article class="article  article--post">
+        <div class="blog-post">
+                <a href="{{ site.baseurl }}{{ page.url }}">{{ page.categories }} | {{ page.title }}</a>
+                
+                - {{ page.date | date: '%B %Y' }}
+                
+                <p>{{ page.excerpt }}</p>
 
-                <a href="{{ site.baseurl }}{{ page.url }}">{{ page.categories }} | {{ page.title }}</a> - {{ page.date | date: '%B %Y' }}
-
-          </article>
-        </li>
+                <hr class="line">
+                
+        </div>
       {% endfor %}
-  </ul>
+  </div>

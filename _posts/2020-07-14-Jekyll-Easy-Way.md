@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "The Easy Way"
+excerpt: "Two methods to quickly get started with Jekyll through GitHub Pages"
 date:   2020-07-14 15:31:07 +0100
 tags:
 - jekyll
 - github
 - markdown
-category:
-- Jekyll
+category: Jekyll
 ---
 #### GitHub and GitHub Pages
 
@@ -35,7 +35,7 @@ If, like me, you want to customise your site, neither of these options will prov
    Your site will now be available at [*username*.github.io].
    Content for your site can be edited within the index.html file.
 
-#### Method 2: Using a Jekyll Theme.
+#### Method 2: Using a Jekyll Theme
 
 There are a number of free themes available for Jekyll. These have pre-set layouts and pages, such as About, Blog and Contact.
 

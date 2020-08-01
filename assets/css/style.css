@@ -135,24 +135,14 @@ nav a {
 
 /* main section */
 
-section {
-  mpadding: 2rem;
+.subpage-title{
+  padding: 4rem;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.content {
-  padding: 3rem;
-}
-
-.subpage-title {
-  text-align: center;
-  padding: 3rem;
-  min-height: 10vh;
-  font-size: 2rem;
-  letter-spacing: 0.1rem;
+  background-color:antiquewhite;
+  margin-bottom: 2rem;
 }
 
 /* Categories Page*/
@@ -161,6 +151,7 @@ section {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding-bottom: 3rem;
 }
 
 .cat-item {
@@ -206,8 +197,9 @@ section {
 
 /* Individual Category Page */
 
-.cat-posts{
-  padding: 2rem;
+.blog-posts a {
+  color: black;
+  font-size: 1.6rem;
 }
 
 .cat-posts a {
@@ -215,11 +207,53 @@ section {
   font-size: 1.6rem;
 }
 
+.cat-titles h2{
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: normal;
 
+}
+
+.cat-post{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0rem;
+}
+
+.blog-post{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0rem;
+}
+
+.cat-post p{
+ font-size: 1.4rem;
+ color: #364f6b;
+}
+
+.blog-post p{
+  font-size: 1.4rem;
+  color: #364f6b;
+ }
+
+ .cat-content p{
+  font-size: 1.6rem;
+  padding-bottom: 2rem;
+}
+
+.line{
+  border-top: 0.1rem solid #364f6b;
+  margin: 1.5rem 1.5rem;
+}
+
+
+.cat-main, .blog-posts{
+  margin-bottom: 3rem;
+}
 /* post page */
 
 
-.post-titles{
+.post-titles, .cat-titles{
   padding: 4rem;
   display: flex;
   align-items: center;
@@ -229,7 +263,7 @@ section {
   margin-bottom: 2rem;
 }
 
-.post-titles h1{
+.post-titles, .cat-main h1{
   text-align: center;
   font-size: 3rem;
   padding: 0.5rem;
@@ -246,7 +280,11 @@ section {
   letter-spacing: 0.2rem;
 }
 
-.content{
+.content, .cat-main{
+  padding: 1vw 15vw 1vw 15vw;
+}
+
+.blog-posts{
   padding: 1vw 15vw 1vw 15vw;
 }
 
@@ -271,7 +309,7 @@ section {
 
 .main-post li{
   font-size: 2rem;
-  padding: 1vw 0vw 1vw 0vw;
+  padding: 0.5vw 0vw 1vw 0vw;
   color: #364f6b;
 }
 
@@ -323,6 +361,8 @@ section {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
 }
+
+
 
 /* footer */
 
