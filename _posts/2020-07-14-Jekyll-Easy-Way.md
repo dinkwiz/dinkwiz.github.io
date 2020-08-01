@@ -9,8 +9,6 @@ tags:
 - markdown
 category: Jekyll
 ---
-<hr class="line">
-
 #### GitHub and GitHub Pages
 
 GitHub Pages supports a number of Jekyll Themes and is the simplest and easiest way to get started with a Jekyll site. All you need is a free GitHub account. If you don't already have one, you can sign up for a GitHub account at [GitHub.com](http://github.com).
