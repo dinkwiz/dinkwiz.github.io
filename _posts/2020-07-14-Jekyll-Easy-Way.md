@@ -70,7 +70,7 @@ Most Jekyll Themes will have a blog section. This is probably the part of the si
 To start a new blog post: I suggest you edit an existing post and copy the YAML information (including dashes at the start and end). You can then:
 
 1. Add a new blank file.
-2. Name the file in the Jekyll format: code(yyyy-mm-dd-title.md)
+2. Name the file in the Jekyll format: yyyy-mm-dd-title.md
 3. Paste the YAML information from a previous post and edit date, title. etc.
 4. Add your post content underneath the final YAML dashes, using markdown to format it.
 5. Commit the file and view it in your site's blog.
