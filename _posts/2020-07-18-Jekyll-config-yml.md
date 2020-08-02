@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "_config.yml"
+title: "The Configuration File"
 excerpt: "What is the _config.yml file for and what should it contain"
 date: 2020-07-18 16:31:07 +0100
 tags:
