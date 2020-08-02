@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Structure Overview"
-excerpt: ""
+excerpt: "A brief summary of the files and folders thag make up a Jekyll site."
 date:   2020-07-15 15:31:07 +0100
 tags:
 - jekyll
@@ -9,7 +9,7 @@ tags:
 - markdown
 category: Jekyll
 ---
-Most Jekyll sites have a similar structure. Here I explain the elements of a basic Jekyll site. This structure would allow you to create and customise the most common elements of a Jekyll site.
+Most Jekyll sites have a similar structure. Here I explain the elements of a basic Jekyll site. This structure would allow you to create and customise the most common elements of a J
 
 <hr class="line">
 
