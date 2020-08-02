@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "style.css"
-excerpt: "Adding style to your site."
+title: "Adding Style"
+excerpt: "Adding content to your style.css file."
 date: 2020-07-24 16:30:07 +0100
 tags:
   - jekyll
