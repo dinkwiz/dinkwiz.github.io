@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "_includes"
-excerpt: ""
+title: "Includes"
+excerpt: "Adding content to the _includes files. "
 date: 2020-07-21 15:31:07 +0100
 tags:
   - jekyll
