@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Jekyll: config.yml"
-date: 2020-07-17 15:31:07 +0100
+title: "config.yml"
+date: 2020-07-18 16:31:07 +0100
 tags:
   - jekyll
   - github
