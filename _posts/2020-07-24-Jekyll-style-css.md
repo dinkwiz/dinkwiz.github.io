@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Blog Posts"
-excerpt: ""
-date: 2020-07-23 15:31:07 +0100
+title: "style.css"
+excerpt: "Adding style to your site."
+date: 2020-07-24 16:30:07 +0100
 tags:
   - jekyll
   - git

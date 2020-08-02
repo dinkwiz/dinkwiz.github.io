@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Jekyll: Publishing to GitHub"
+title: "Publishing to GitHub"
+excerpt: ""
 date: 2020-07-24 20:31:07 +0100
 tags:
   - jekyll
@@ -8,6 +9,5 @@ tags:
   - bash
   - markdown
   - ruby
-project-id: jekyll-build
-project-order: 13
+category: Jekyll
 ---
