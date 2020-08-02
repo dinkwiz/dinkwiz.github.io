@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "jekyll serve"
+title: "Previewing your site"
 excerpt: "Putting all the elements of your site together."
 date: 2020-07-24 15:31:07 +0100
 tags:
