@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "default.html"
-excerpt: ""
+title: "The Default Layout"
+excerpt: "Adding content to the default.html file."
 date: 2020-07-18 20:31:07 +0100
 tags:
   - jekyll
