@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "Tableau: Embedded Analytics – Quick Start Guide"
+title:  "Embedded Analytics – Quick Start Guide"
+excerpt: ""
 date:   2020-07-30 20.00
 tags:
 - tableau
 
-categories: tableau
+category: Tableau
 ---
 
 Aim:
