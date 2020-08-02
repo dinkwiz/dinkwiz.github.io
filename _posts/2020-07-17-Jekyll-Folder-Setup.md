@@ -30,6 +30,7 @@ To begin, we will build the site locally (i.e. on your computer). Once it's buil
     - index.html
     - about.html
     - blog.html
+    - style.css
 
 4. Within the _layouts folder create a file called:
 
