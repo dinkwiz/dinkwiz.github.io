@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "index.html"
-excerpt: ""
+title:  "The Homepage"
+excerpt: "Adding content to the index.html page."
 date:   2020-07-18 17:31:07 +0100
 tags:
 - jekyll
