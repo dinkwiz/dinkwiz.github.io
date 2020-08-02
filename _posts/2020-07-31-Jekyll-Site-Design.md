@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Jekyll: Site Design"
-date: 2020-07-19 15:31:07 +0100
+excerpt: ""
+date: 2020-07-31 15:31:07 +0100
 tags:
   - jekyll
   - git
