@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setting up the folder structure"
+title:  "Folder Set-up"
 excerpt: "Creating the folders and files needed for a Jekyll site."
 date:   2020-07-17 15:31:07 +0100
 tags:
