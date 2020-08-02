@@ -1,14 +1,11 @@
 ---
 layout: post
-title:  "Initial Folder Set Up"
-excerpt: ""
+title:  "Setting up the folder structure"
+excerpt: "Creating the folders and files needed for a Jekyll site."
 date:   2020-07-17 15:31:07 +0100
 tags:
 - jekyll
-- git
-- bash
 - markdown
-- ruby
 category: Jekyll
 ---
 A Jekyll site has a specific folder structure and there are a few core elements that you must include. These tell Jekyll how to build your site. 
@@ -47,6 +44,7 @@ To begin, we will build the site locally (i.e. on your computer). Once it's buil
     - head.html
     - header.html
     - post-list.html
+    - page-title.html
     - footer.html
 
 You might find it easier to create the files using NotePad or your Text Editor. Remember to use the underscore ( _ ) where it is included in the names above.
@@ -63,6 +61,7 @@ And that's it. You folder should now look like this:
     - head.html
     - header.html
     - post-list.html
+    - page-title.html
     - footer.html
 - _layouts
     - default.html
