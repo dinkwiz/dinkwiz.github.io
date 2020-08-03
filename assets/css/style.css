@@ -114,6 +114,7 @@ nav a {
   align-items: center;
   flex-wrap: wrap;
   height: 100vh;
+  width: 100vw;
   color: whitesmoke;
 }
 
@@ -429,7 +430,10 @@ img[src*="#scale50"] {
   padding: 2rem;
   }
 
-.page-nav p{
+.prev{
+  padding: 0rem 2rem;
+  
+.next{
   padding: 0rem 2rem;
 
 /* footer */
