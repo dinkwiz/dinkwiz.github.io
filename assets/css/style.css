@@ -425,6 +425,8 @@ img[src*="#scale50"] {
   font-size: 1.4rem;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: space-around;
   }
 
 
