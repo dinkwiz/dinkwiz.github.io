@@ -429,6 +429,17 @@ img[src*="#scale50"] {
   align-items: space-evenly;
   }
 
+
+.prev {
+  text-align: left;
+  align-items: left;
+}
+
+.next {
+  text-align: right;
+  align-self: right;
+}
+
 /* footer */
 
 .footer {
