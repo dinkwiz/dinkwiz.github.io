@@ -1,11 +1,11 @@
 <div class="PageNav">
-  {% for post in site.posts where | post.category = page.category %}
+
     {% if page.previous.url %}
-      <a class="prev" href="{{page.previous.url}}">{{ page.category }} - {{page.previous.title}}</a>
+      <a class="prev" href="{{page.previous.url}}">Previous - {{page.previous.title}}</a>
     {% endif %}
   
     {% if page.next.url %}
-      <a class="next" href="{{page.next.url}}">{{ page.category }} - {{page.next.title}}</a>
+      <a class="next" href="{{page.next.url}}">Next - {{page.next.title}}</a>
     {% endif %}
-  {% endfor %}
+
 </div>
