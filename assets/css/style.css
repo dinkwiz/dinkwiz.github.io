@@ -425,7 +425,7 @@ img[src*="#scale50"] {
   font-size: 1.4rem;
   padding: 2rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   }
 
