@@ -359,7 +359,7 @@ nav a {
 }
 
 .main-post code{
-  display: flex;
+  display: block;
   background-color: black;
   color: whitesmoke;
   margin: 2rem;
@@ -368,6 +368,7 @@ nav a {
   line-height: 2rem;
   font-family: Poppins;
   width: 60vw;
+  text-align: justify;
 }
 
 img[src*="#scale50"] {
@@ -422,6 +423,14 @@ img[src*="#scale50"] {
 }
 
 
+.prev-next{
+  display: block; 
+  font-size: 2rem;
+  width: 60vw;
+}
+
+.next{
+  text-align: right;
 
 /* footer */
 
