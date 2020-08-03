@@ -421,16 +421,23 @@ img[src*="#scale50"] {
 
 
 .page-nav {
-  background-color: teal;
   font-size: 1.4rem;
   display: flex;
-  flex-direction: row;
-  align-items: space-evenly;
+  flex-wrap: wrap ;
+  padding: 2rem 0rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.next {
+.next{
   text-align: right;
 }
+
+.page-nav .line{
+  color: white;
+  border: white;
+}
+
 
 /* footer */
 
@@ -483,7 +490,17 @@ img[src*="#scale50"] {
   .nav-active {
   transform: translateX(0%);
   }
+
+  .page-nav {
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  .page-nav .line{
+    width: 20vw;
+  }
 }
+
 
 @keyframes navFade {
   from {
