@@ -423,7 +423,7 @@ img[src*="#scale50"] {
 }
 
 
-.pagenav{
+.page-nav{
   display: flex; 
   justify-content: center;
   align-items: center;
