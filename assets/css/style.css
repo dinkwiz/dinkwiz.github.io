@@ -166,14 +166,14 @@ nav a {
 
 /* Categories Page*/
 
-.cat-gallery {
+.cat-gallery, .proj-gallery {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   padding-bottom: 3rem;
 }
 
-.cat-item {
+.cat-item, .proj-item {
   background-color: whitesmoke;
   width: 20rem;
   margin: 1.5rem;
@@ -184,16 +184,16 @@ nav a {
   box-shadow: 1rem 1rem 1rem grey;
 }
 
-.cat-item img{
+.cat-item img, .proj-item img{
   margin: 5%;
   width: 90%;
 }
 
-.cat-item a{
+.cat-item a, .proj-item a{
   text-decoration: none;
 }
 
-.cat-title{
+.cat-title, .proj-title {
   font-size: 2rem;
   text-align: center;
   color: #364f6b;
@@ -204,7 +204,7 @@ nav a {
   justify-content: center;
 }
 
-.cat-subtitle{
+.cat-subtitle, .proj-subtitle {
   font-size: 1.2rem;
   text-align: center;
   color: #364f6b;
@@ -221,7 +221,7 @@ nav a {
   font-size: 1.6rem;
 }
 
-.cat-posts a {
+.cat-posts a, .proj-posts a {
   color: black;
   font-size: 1.6rem;
 }
@@ -233,7 +233,7 @@ nav a {
 
 }
 
-.cat-post{
+.cat-post, .proj-post {
   display: flex;
   flex-direction: column;
   padding: 1rem 0rem;
@@ -245,12 +245,7 @@ nav a {
   padding: 1rem 0rem;
 }
 
-.cat-post p{
- font-size: 1.4rem;
- color: #364f6b;
-}
-
-.blog-post p{
+.blog-post p, .cat-post p{
   font-size: 1.4rem;
   color: #364f6b;
  }
@@ -282,7 +277,7 @@ nav a {
   margin-bottom: 2rem;
 }
 
-.post-titles, .cat-main h1{
+.post-titles h1, .cat-main h1{
   text-align: center;
   font-size: 3rem;
   padding: 0.5rem;
@@ -303,7 +298,7 @@ nav a {
   padding: 1vw 15vw 1vw 15vw;
 }
 
-.main-post p{
+.main-post p, .cat-main p{
   font-size: 1.6rem;
   padding: 1vw 0vw 1vw 0vw;
   color: #364f6b;
@@ -311,55 +306,55 @@ nav a {
   align-self: center;
 }
 
-.main-post h4{
+.main-post h4, .cat-main h4{
   font-size: 2rem;
   padding: 1.5vw 0vw 1vw 0vw;
   color: #364f6b;
 }
 
-.main-post ol{
+.main-post ol, .cat-main ol{
   padding: 0.5vw 0vw 0.5vw 2vw;
   color: #364f6b; 
 }
 
-.main-post ul{
+.main-post ul, .cat-main ul{
   padding: 0.5vw 0vw 0.5vw 2vw;
   color: #364f6b;
 }
 
-.main-post li{
+.main-post li, .cat-main li{
   font-size: 1.6rem;
   padding-bottom: 0.5rem;
   color: #364f6b;
 }
 
-.main-post ol > li{
+.main-post ol > li, .cat-main ol > li{
   font-size: 1.6rem;
   padding-left: 1rem;
 }
 
-.main-post ul > li{
+.main-post ul > li, .cat-main ul > li{
   font-size: 1.6rem;
   padding-left: 1rem;
 }
 
-.main-post ul ul{
+.main-post ul ul, .cat-main ul ul{
   margin-left: 3rem;
   list-style-type: square;
 }
-.main-post ol ul{
+.main-post ol ul, .cat-main ol ul{
   margin-left: 3rem;
   list-style-type: square;
 }
 
-.main-post ol ul > li{
+.main-post ol ul > li, .cat-main ol ul > li{
   padding-left: 1rem;
 }
 
-.main-post ul ul > li{
+.main-post ul ul > li, .cat-main ul ul > li{
   padding-left: 1rem;
 }
-.main-post blockquote{
+.main-post blockquote, .cat-main blockquote{
   background-color: rgb(192, 215, 223);
   padding: 0.7rem;
   margin: 2rem;
@@ -468,8 +463,9 @@ img[src*="#scale50"] {
   .nav-links {
     position: absolute;
     right: 0px;
-    height: 45vh;
+    height: 50vh;
     top: 9rem;
+    padding: 1rem;
     background-color: #364f6b;
     display: flex;
     flex-direction: column;
@@ -521,4 +517,3 @@ img[src*="#scale50"] {
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -5px);
 }
-
