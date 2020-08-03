@@ -423,17 +423,10 @@ img[src*="#scale50"] {
 }
 
 
-.page-nav{
-  display: flex; 
-  justify-content: center;
-  align-items: center;
+.page-nav {
+  background-color: navy;
   font-size: 1.6rem;
   padding: 2rem;
-}
-
-.next{
-  text-align: right;
-  
 }
 
 /* footer */
