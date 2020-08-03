@@ -425,8 +425,8 @@ img[src*="#scale50"] {
   font-size: 1.4rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: center;
+  align-items: space-evenly;
   }
 
 /* footer */
