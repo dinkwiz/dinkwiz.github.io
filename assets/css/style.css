@@ -425,7 +425,7 @@ img[src*="#scale50"] {
   font-size: 1.4rem;
   display: flex;
   flex-direction: row;
-  align-items: space-around;
+  align-items: space-evenly;
 }
 
 /* footer */
