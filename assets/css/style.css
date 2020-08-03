@@ -425,19 +425,7 @@ img[src*="#scale50"] {
   font-size: 1.4rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: space-around;
-  }
-
-
-.prev a{
-  text-align: left;
-  justify-content: left;
-}
-
-.next a{
-  text-align: right;
-  justify-content: right;
 }
 
 /* footer */
