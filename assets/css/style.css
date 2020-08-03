@@ -423,7 +423,9 @@ img[src*="#scale50"] {
 .page-nav {
   background-color: teal;
   font-size: 1.4rem;
-  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
 
 /* footer */
