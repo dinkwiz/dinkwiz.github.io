@@ -428,6 +428,10 @@ img[src*="#scale50"] {
   align-items: space-evenly;
 }
 
+.next {
+  text-align: right;
+}
+
 /* footer */
 
 .footer {
