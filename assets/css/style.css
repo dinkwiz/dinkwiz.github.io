@@ -432,12 +432,12 @@ img[src*="#scale50"] {
 
 .prev a{
   text-align: left;
-  align-items: left;
+  justify-content: left;
 }
 
 .next a{
   text-align: right;
-  align-self: right;
+  justify-content: right;
 }
 
 /* footer */
