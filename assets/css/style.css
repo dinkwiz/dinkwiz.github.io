@@ -424,8 +424,10 @@ img[src*="#scale50"] {
 
 
 .prev-next{
-  display: block; 
-  font-size: 2rem;
+  display: flex; 
+  justify-content: stretch;
+  align-items: center;
+  font-size: 1.6rem;
   width: 60vw;
 }
 
