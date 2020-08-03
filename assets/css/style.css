@@ -430,12 +430,12 @@ img[src*="#scale50"] {
   }
 
 
-.prev {
+.prev a{
   text-align: left;
   align-items: left;
 }
 
-.next {
+.next a{
   text-align: right;
   align-self: right;
 }
