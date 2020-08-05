@@ -216,12 +216,12 @@ nav a {
 
 /* Individual Category Page */
 
-.blog-posts a {
+.posts a {
   color: black;
   font-size: 1.6rem;
 }
 
-.cat-posts a, .proj-posts a {
+.posts a {
   color: black;
   font-size: 1.6rem;
 }
@@ -233,19 +233,19 @@ nav a {
 
 }
 
-.cat-post, .proj-post {
+.post {
   display: flex;
   flex-direction: column;
   padding: 1rem 0rem;
 }
 
-.blog-post{
+.post{
   display: flex;
   flex-direction: column;
   padding: 1rem 0rem;
 }
 
-.blog-post p, .cat-post p{
+.post p{
   font-size: 1.4rem;
   color: #364f6b;
  }
@@ -261,7 +261,7 @@ nav a {
 }
 
 
-.cat-main, .blog-posts{
+.cat-main, .posts{
   margin-bottom: 3rem;
 }
 /* post page */
@@ -294,7 +294,7 @@ nav a {
   letter-spacing: 0.2rem;
 }
 
-.content, .cat-main, .prev-next, .blog-posts{
+.content, .cat-main, .prev-next, .posts{
   padding: 1vw 15vw 1vw 15vw;
 }
 
