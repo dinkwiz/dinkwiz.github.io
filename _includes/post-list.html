@@ -1,7 +1,9 @@
-<div class="blog-posts">
+<blog-posts>
+
+<div class="posts">
   {% assign sorted-posts = site.posts | sort: 'date' | reverse %}    
   {% for page in sorted-posts %}
-        <div class="blog-post">
+        <div class="post">
                 <a href="{{ site.baseurl }}{{ page.url }}">{{ page.categories }} | {{ page.title }}</a>
                 
                 - {{ page.date | date: '%B %Y' }}
@@ -13,3 +15,5 @@
         </div>
       {% endfor %}
   </div>
+  
+  </blog-posts>
