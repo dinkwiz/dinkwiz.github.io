@@ -1,15 +1,15 @@
 <proj-gallery>
-  <div class="proj-gallery">
+  <div class="gallery">
   {% for project in site.projects %}
-      <div class="proj-items">
-          <div class="proj-item">
+      <div class="items">
+          <div class="item">
               <a 
               href="{{ project.url }}">
               <img src="{{ project.image-path }}" alt="">
-              <div class="proj-title"> 
+              <div class="gallery-title"> 
                   {{ project.title }} 
               </div>
-              <div class="proj-subtitle">
+              <div class="gallery-subtitle">
                   {{ project.subtitle }}
               </div>
               </a>
