@@ -1,14 +1,12 @@
 
 <project-posts>
 
-  <h4>Posts</h4>
-
-  <div class="proj-posts">
+  <div class="posts">
     <ul>
     {% assign filtered_posts = site.posts | where: 'project-id', page.project-id %}
       {% assign sorted = filtered_posts | sort: 'project-order' %}
         {% for post in sorted %}
-        <div class="proj-post">
+        <div class="post">
            <li><a href="{{ post.url }}">{{ post.category }} | {{ post.title }}</a></li>
           </div>
         {% endfor %}
