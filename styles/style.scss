@@ -1,10 +1,10 @@
+@import "global";
 @import "welcome";
 @import "header";
 @import "tags";
 @import "footer";
 @import "mobile";
 @import "posts";
-@import "global";
 @import "posts";
 @import "gallery";
 
@@ -182,7 +182,7 @@ img[src*="#scale50"] {
   margin-bottom: 2rem;
 }
 
-.post-titles h1, .cat-main h1{
+.post-titles h1, .cat-titles h1{
   text-align: center;
   font-size: 3rem;
   padding: 0.5rem;
