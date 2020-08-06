@@ -312,6 +312,101 @@ nav a {
   text-align: right;
 }
 
+.page-nav {
+  font-size: 1.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2rem 0rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-nav .line {
+  color: white;
+  border: white;
+}
+
+.page-nav .next {
+  text-align: right;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 3rem;
+}
+
+.gallery .item {
+  background-color: whitesmoke;
+  width: 20rem;
+  margin: 1.5rem;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 1rem 1rem 1rem grey;
+          box-shadow: 1rem 1rem 1rem grey;
+}
+
+.gallery .item img {
+  margin: 5%;
+  width: 90%;
+}
+
+.gallery .item a {
+  text-decoration: none;
+}
+
+.gallery .gallery-title {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #364f6b;
+  font-weight: bold;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gallery .gallery-subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #364f6b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 /* Global style - remove margin and padding, border-box, html - adjust sizing so 1rem = 10 pixels*/
 * {
   margin: 0;
