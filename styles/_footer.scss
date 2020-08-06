@@ -1,0 +1,17 @@
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+    min-height: 5vh;
+    background-color: #364f6b;
+    font-family: "Poppins", sans-serif;
+    padding: 2rem;
+  }
+  
+  .footer p{
+    color: white;
+    font-size: 1rem;
+  }

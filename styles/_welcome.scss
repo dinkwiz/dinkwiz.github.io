@@ -1,0 +1,38 @@
+/* welcome page */
+
+.welcome{
+    margin: 0;
+    padding: 0;
+    background-color: #364f6b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+    color: whitesmoke;
+  }
+  
+  .welcome h2{
+    padding: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+  }
+  
+  .welcome p{
+    padding: 2rem;
+    font-size: 1.2rem;
+  }
+  .welcome li{
+    list-style: none;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .welcome a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 2rem;
+  }
+  

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Post Title"
-date:   yyyy-mm-dd hh:mm
+date:   yyyy-mm-dd hh.mm
 tags:
 - python
 - github

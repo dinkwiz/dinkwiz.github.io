@@ -1,0 +1,20 @@
+
+
+
+.page-nav {
+    font-size: 1.4rem;
+    display: flex;
+    flex-wrap: wrap ;
+    padding: 2rem 0rem;
+    justify-content: space-between;
+    align-items: center;
+  
+    .line{
+      color: white;
+      border: white;
+    }
+  
+    .next{
+      text-align: right;
+    }
+  }
