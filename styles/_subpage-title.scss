@@ -1,0 +1,30 @@
+.subpage-title{
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+    a{
+      text-align: center;
+      font-size: 1.6rem;
+      padding: 3rem 0.5rem 0.5rem 0.5rem;
+      color: #364f6b;
+      text-decoration: none;
+      font-weight: bold;
+      letter-spacing: 0.2rem;
+    }
+
+    h1{
+      font-size: 2.6rem;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    h2{
+      font-size: 2rem;
+      text-align: center;
+      font-weight: normal;
+    }
+  }

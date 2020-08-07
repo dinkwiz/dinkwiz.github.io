@@ -10,17 +10,11 @@
     {% include nav.html %}
   </header>
 
-  <main>
+  <div>
+    {% include subpage-title.html %}
+  </div>
 
-    <div class="main-post">
-
-      <div class="post-titles">
-        
-        <a href="/categories/{{ page.categories }}.html"> - {{ page.categories }} - </a>
-
-        <h1>{{ page.title }}</h1>
-
-      </div>
+  <main class="main">
       
       <div class="content">
        {{ content }}
@@ -33,11 +27,7 @@
       <div class="prev-next">
         {% include previous-next.html %}
       </div>
-      
-    </div>
-      
 
-      
   </main>
 
   <footer>

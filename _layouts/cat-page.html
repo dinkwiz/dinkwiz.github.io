@@ -9,13 +9,12 @@
   <header>
     {% include nav.html %}
   </header>
-
-  <div class="post-titles">
-    <h1>{{ page.title }}</h1>
-    <h2>{{ page.subtitle }}</h2>
+  
+  <div>
+    {% include subpage-title.html %}
   </div>
 
-  <div class="cat-main">
+  <main class="main">
     <div class="cat-content">
       {{ content }}
     </div>
@@ -25,7 +24,7 @@
     <div class="cat-posts">
       {% include cat-posts.html %}
     </div>
-  </div>
+  </main>
 
   <footer>
     {% include footer.html %}

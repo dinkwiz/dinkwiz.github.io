@@ -125,15 +125,7 @@
   
   /* main section */
   
-  .subpage-title{
-    padding: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color:white;
-    margin-bottom: 2rem;
-  }
+
   
   
   /* Individual Category Page */
@@ -149,46 +141,13 @@
     padding: 1rem 0rem;
   }
   
-  .cat-titles h2{
-    font-size: 1.2rem;
-    text-align: center;
-    font-weight: normal;
-  }
   
-  
-  .cat-main, .posts{
-    margin-bottom: 3rem;
-  }
+
   /* post page */
   
+
   
-  .post-titles{
-    padding: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color:white;
-    margin-bottom: 2rem;
-  }
-  
-  .post-titles h1, .cat-titles h1{
-    text-align: center;
-    font-size: 3rem;
-    padding: 0.5rem;
-  }
-  
-  .post-titles a{
-    text-align: center;
-    font-size: 2rem;
-    padding: 3rem 0.5rem 0.5rem 0.5rem;
-    color: #364f6b;
-    text-decoration: none;
-    font-weight: bold;
-    letter-spacing: 0.2rem;
-  }
-  
-  .content, .cat-main, .prev-next{
+  .main{
     padding: 1vw 15vw 1vw 15vw;
   }
   

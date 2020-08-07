@@ -122,25 +122,6 @@ img[src*="#scale50"] {
 }
 
 /* main section */
-.subpage-title {
-  padding: 4rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: white;
-  margin-bottom: 2rem;
-}
-
 /* Individual Category Page */
 .posts a {
   color: black;
@@ -158,53 +139,8 @@ img[src*="#scale50"] {
   padding: 1rem 0rem;
 }
 
-.cat-titles h2 {
-  font-size: 1.2rem;
-  text-align: center;
-  font-weight: normal;
-}
-
-.cat-main, .posts {
-  margin-bottom: 3rem;
-}
-
 /* post page */
-.post-titles {
-  padding: 4rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: white;
-  margin-bottom: 2rem;
-}
-
-.post-titles h1, .cat-titles h1 {
-  text-align: center;
-  font-size: 3rem;
-  padding: 0.5rem;
-}
-
-.post-titles a {
-  text-align: center;
-  font-size: 2rem;
-  padding: 3rem 0.5rem 0.5rem 0.5rem;
-  color: #364f6b;
-  text-decoration: none;
-  font-weight: bold;
-  letter-spacing: 0.2rem;
-}
-
-.content, .cat-main, .prev-next {
+.main {
   padding: 1vw 15vw 1vw 15vw;
 }
 
@@ -615,5 +551,45 @@ nav a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.subpage-title {
+  padding: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.subpage-title a {
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 3rem 0.5rem 0.5rem 0.5rem;
+  color: #364f6b;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+.subpage-title h1 {
+  font-size: 2.6rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.subpage-title h2 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: normal;
 }
 /*# sourceMappingURL=style.css.map */
