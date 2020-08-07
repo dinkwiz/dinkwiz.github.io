@@ -14,7 +14,7 @@ project-id: jekyll-build
 
 GitHub Pages supports a number of Jekyll Themes and is the simplest and easiest way to get started with a Jekyll site. All you need is a free GitHub account. If you don't already have one, you can sign up for a GitHub account at [GitHub.com](http://github.com).
 
-The first method below will create a very simple website with a single page. It's a useful way to experiment with GitHub Pages but unlikely to give you all the features you want. The second method uses a Jekyll Theme and builds a site with multiple pages, blog and navigation. There will be a lot going on in the back-end of your site which is not explained here. While you can add content, changes to the layout and design of your site will be limited.
+The first method below will create a very simple website with a single page. It's a useful way to experiment with GitHub Pages but unlikely to give you all the features you want. The second method uses a Jekyll Theme and builds a site with multiple pages, blog and navigation. There will be a lot going on in the back-end of your site which is not explained here. While you can add content, changes to the layout and design of your site will be limited unless you understand the code it has been built with.
 
 If, like me, you want to customise your site, neither of these options will provide you with the functionality you'll need. However, if you are new to Jekyll, I suggest you start here. Both methods are quick to set up and will give you a feel for how Jekyll works before starting on your own project.
 
@@ -58,7 +58,7 @@ There are a number of free themes available for Jekyll. These have pre-set layou
 #### Markdown
 You will need to know some basic markdown to edit these pages. Markdown really is a simple way of formatting text and nothing to be scared of!
 
-[Find out about markdown here.](link)
+[Find out about markdown here.](./markdown/markdown.html)
 
 #### YAML
 Within Jekyll pages, there will be some content at the top of each page separated by three dashes. This is known as YAML. You must keep this content there as it tells the site how it should be built. For example, the layout section tells the site what the page should look like. 
